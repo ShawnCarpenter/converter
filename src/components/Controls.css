@@ -1,0 +1,14 @@
+input {
+  font-size: 1.2rem;
+}
+.keypad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .2rem;
+  margin: .1rem;
+}
+
+.keypad div {
+  border: .2rem solid white;
+  border-radius: .1rem;
+}
