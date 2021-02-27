@@ -10,5 +10,10 @@ input {
 
 .keypad div {
   border: .2rem solid white;
-  border-radius: .1rem;
+  border-radius: 50%;
+}
+.keypad div:hover {
+  border: .2rem solid red;
+  color: red;
+  cursor: pointer;
 }
